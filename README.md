@@ -24,10 +24,9 @@ Don't forget to chmod +x the file on Linux and macOS.
 ## Integrate concourse pipeline with HashiCorp Vault
 1. Centralize Credhub vault services: All concourse pipeline will fetch data from centralize credhub Vault server.
 2. Credhub path naming convention: /concourse/<TEAM>/<PIPELINE_NAME>/<JOB_NAME>/<KEY>
-3. Work in Process (WIP): Where is the source of truth for dataset ? KSM ? Vault ?
 
 ## Integrate concourse with AWS Secret Manager
-
+WIP
 
 # CF-MGMT Installations - (Administrators)
 
@@ -72,13 +71,9 @@ uaac client add cf-mgmt \
 ```
 
 ## Step 3. Github Repo Access.
-
-
 ## Step 3a. If foundation exists:
 -- STOP!!!! -  CONCOURSE CI/CD pipeline already setup
 -- Proceed to Operators and Developers section
-- If you are unsure, please check with PCF Ops team
-
 
 ## Step 3b. Create new github repo for foundation:
 1. Create new foundation in github under "*__projects__*"
